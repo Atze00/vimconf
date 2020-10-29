@@ -1,3 +1,4 @@
+:syntax on
 nnoremap <c-z> <nop>
 autocmd TextChanged,TextChangedI * silent write
 filetype plugin indent on
