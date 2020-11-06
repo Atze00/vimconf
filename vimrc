@@ -1,12 +1,8 @@
 "syntax on
 syntax on
-"ctrl+z doens't exit vim
-nnoremap <C-z> <nop>
-"to copy to system cliboard
-vnoremap <C-c> "+yy
-"to copy from system cliboard
-vnoremap <C-V> "+pp
+"autosave file
 autocmd TextChanged,TextChangedI * silent write
+"auto indentation
 filetype plugin indent on
 "normal backspace
 set backspace=2
@@ -18,4 +14,18 @@ set shiftwidth=4
 set expandtab
 " moves the cursor to the position clicked by the mouse
 set mouse=a
-
+"ctrl+z doens't exit vim
+nnoremap <C-z> <nop>
+"to copy to system cliboard
+vnoremap <C-C> "+y
+"to copy from system cliboard
+vnoremap <C-V> "+p
+"visualize numbers on the side
+set number
+"highlight search words
+set hlsearch
+"remap hjkl to jklò
+noremap ò l
+noremap l k
+noremap k j
+noremap j h
