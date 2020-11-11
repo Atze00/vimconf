@@ -1,7 +1,7 @@
 "syntax on
 syntax on
 "autosave file
-autocmd TextChanged,TextChangedI * silent write
+"autocmd TextChanged,TextChangedI * silent write
 "auto indentation
 filetype plugin indent on
 "normal backspace
