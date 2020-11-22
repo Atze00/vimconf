@@ -24,8 +24,4 @@ vnoremap <C-V> "+p
 set number
 "highlight search words
 set hlsearch
-"remap hjkl to jklò
-noremap ò l
-noremap l k
-noremap k j
-noremap j h
+
